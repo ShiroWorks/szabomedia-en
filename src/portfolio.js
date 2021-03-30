@@ -199,48 +199,168 @@ const openSource = {
 
 
 
+// const bigProjects = {
+//   title: 'My Works',
+//   subtitle: 'A SELECTION OF MY RANGE OF WORK',
+//   projects: [
+//     {
+//       image: require('./assets/images/shiroworks1.jpg'),
+//       link: 'https://shiroworks-en.netlify.app/',
+//     },
+//     {
+//       image: require('./assets/images/oceanblue.jpg'),
+//       link: 'https://oceanbluecss.netlify.app/index.html',
+//     },
+//     {
+//       image: require('./assets/images/tasty.jpg'),
+//       link: 'https://tasty-foodcss.netlify.app/',
+//     },
+//     {
+//       image: require('./assets/images/covidtracker.jpg'),
+//       link: 'https://covid-tracker-reactjs.netlify.app/',
+//     },
+//     {
+//       image: require('./assets/images/airbnb.jpg'),
+//       link: 'https://react-airbnbjs.netlify.app/',
+//     },
+//     {
+//       image: require('./assets/images/powerroom.jpg'),
+//       link: 'https://the-power-room.netlify.app/',
+//     },
+//     {
+//       image: require('./assets/images/movies.jpg'),
+//       link: 'https://popular-movies-movie-db.netlify.app/',
+//     },
+//     {
+//       image: require('./assets/images/githubjobs.jpg'),
+//       link: 'https://github-api-job-search.netlify.app/',
+//     },
+//     {
+//       image: require('./assets/images/readit.jpg'),
+//       link: 'https://github.com/ShiroWorks/Readit-Backend',
+//     },
+//   ],
+// };
 const bigProjects = {
-  title: 'My Works',
-  subtitle: 'A SELECTION OF MY RANGE OF WORK',
+  title: "My Works",
+  subtitle: "A SELECTION OF MY RANGE OF WORK",
   projects: [
     {
-      image: require('./assets/images/shiroworks1.jpg'),
-      link: 'https://shiroworks-en.netlify.app/',
+      image: require("./assets/images/shiroworks1.jpg"),
+      projectName: "ShiroWorks",
+      projectDesc: "Web developer portfolio",
+      footerLink: [
+        {
+          name: "View Website",
+          url: "https://shiroworks-en.netlify.app/"
+        }
+        
+      ]
     },
     {
-      image: require('./assets/images/oceanblue.jpg'),
-      link: 'https://oceanbluecss.netlify.app/index.html',
+      image: require("./assets/images/oceanblue.jpg"),
+      projectName: "OceanBlue",
+      projectDesc: "Responsive website",
+      footerLink: [
+        {
+          name: "View Website",
+          url: "https://oceanbluecss.netlify.app/index.html"
+        }
+      ]
     },
     {
-      image: require('./assets/images/tasty.jpg'),
-      link: 'https://tasty-foodcss.netlify.app/',
+      image: require("./assets/images/movies.jpg"),
+      projectName: "React Movies",
+      projectDesc: "Most popular movies, with search function",
+      footerLink: [
+        {
+          name: "View Website",
+          url: "https://popular-movies-movie-db.netlify.app/"
+        }
+      ]
     },
     {
-      image: require('./assets/images/covidtracker.jpg'),
-      link: 'https://covid-tracker-reactjs.netlify.app/',
+      image: require("./assets/images/tasty.jpg"),
+      projectName: "Tasty Food",
+      projectDesc: "Responsive website with light / dark mode",
+      footerLink: [
+        {
+          name: "View Website",
+          url: "https://tasty-foodcss.netlify.app/"
+        }
+      ]
     },
     {
-      image: require('./assets/images/airbnb.jpg'),
-      link: 'https://react-airbnbjs.netlify.app/',
+      image: require("./assets/images/githubjobs.jpg"),
+      projectName: "Job Search",
+      projectDesc: "A simple job search website, with the help of the github API",
+      footerLink: [
+        {
+          name: "View Website",
+          url: "https://github-api-job-search.netlify.app/"
+        }
+      ]
     },
     {
-      image: require('./assets/images/powerroom.jpg'),
-      link: 'https://the-power-room.netlify.app/',
+      image: require("./assets/images/appshow.jpg"),
+      projectName: "Appnu",
+      projectDesc: "Application showcase website",
+      footerLink: [
+        {
+          name: "View Website",
+          url: "https://dev-applandingpage.pantheonsite.io/"
+        }
+      ]
     },
     {
-      image: require('./assets/images/movies.jpg'),
-      link: 'https://popular-movies-movie-db.netlify.app/',
+      image: require("./assets/images/covidtracker.jpg"),
+      projectName: "Covid Tracker",
+      projectDesc: "Coronavirus cases, deaths by country",
+      footerLink: [
+        {
+          name: "View Website",
+          url: "https://covid-tracker-reactjs.netlify.app/"
+        }
+      ]
     },
     {
-      image: require('./assets/images/githubjobs.jpg'),
-      link: 'https://github-api-job-search.netlify.app/',
+      image: require("./assets/images/ecomm.jpg"),
+      projectName: "Backpack",
+      projectDesc: "Ecommerce website",
+      footerLink: [
+        {
+          name: "View Website",
+          url: "https://dev-wuwuwuw.pantheonsite.io/"
+        }
+      ]
     },
     {
-      image: require('./assets/images/readit.jpg'),
-      link: 'https://github.com/ShiroWorks/Readit-Backend',
+      image: require("./assets/images/blog.jpg"),
+      projectName: "abc News",
+      projectDesc: "Blog",
+      footerLink: [
+        {
+          name: "View Website",
+          url: "https://dev-myblogtest.pantheonsite.io/"
+        }
+      ]
     },
+    {
+      image: require("./assets/images/travel.jpg"),
+      projectName: "Travel",
+      projectDesc: "Travel agency",
+      footerLink: [
+        {
+          name: "View Website",
+          url: "https://dev-hotelbooksite.pantheonsite.io/"
+        }
+      ]
+    }
   ],
+  display: true 
 };
+
+
 
 
 const achievementSection = {
@@ -346,7 +466,7 @@ const podcastSection = {
 const contactInfo = {
   title: emoji('Contact Me ☎️'),
   subtitle:
-    'DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL.',
+    'DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL',
   number: '',
   email_address: 'vili8899s@gmail.com',
 };

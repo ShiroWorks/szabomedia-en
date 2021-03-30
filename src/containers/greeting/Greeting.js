@@ -34,11 +34,11 @@ export default function Greeting() {
               <SocialMedia />
               <div className="button-greeting-div">
                 <Button text="Contact Me" href="#contact" />
-                <Button
+                {/* <Button
                   text="See My Resume"
                   newTab={true}
                   href={greeting.resumeLink}
-                />
+                /> */}
               </div>
             </div>
           </div>
