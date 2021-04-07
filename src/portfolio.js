@@ -18,7 +18,7 @@ const greeting = {
 const socialMediaLinks = {
   github: 'https://github.com/ShiroWorks?tab=repositories',
   linkedin: 'https://www.linkedin.com/in/vilmos-szab%C3%B3-4b4b74201/',
-  gmail: 'vili8899s@gmail.com',
+  gmail: 'szabomediaweb@gmail.com',
   twitter: 'https://twitter.com/___Vili___',
   codepen: 'https://codepen.io/Shirox',
 };
@@ -468,7 +468,7 @@ const contactInfo = {
   subtitle:
     'DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL',
   number: '',
-  email_address: 'vili8899s@gmail.com',
+  email_address: 'szabomediaweb@gmail.com',
 };
 
 
