@@ -291,20 +291,20 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/githubjobs.jpg"),
-      projectName: "Job Search",
-      projectDesc: "A simple job search website, with the help of the github API",
+      image: require("./assets/images/12234.jpg"),
+      projectName: "Instagram Clone",
+      projectDesc: "A simple Instagram Clone, with the help of React, Firebase and TailwindCSS",
       footerLink: [
         {
           name: "View Website",
-          url: "https://github-api-job-search.netlify.app/"
+          url: "https://instagram-5d0a9.web.app/login"
         }
       ]
     },
     {
       image: require("./assets/images/appshow.jpg"),
       projectName: "Appnu",
-      projectDesc: "Application showcase website",
+      projectDesc: "Application showcase website (Landing Page)",
       footerLink: [
         {
           name: "View Website",
@@ -324,13 +324,13 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/ecomm.jpg"),
-      projectName: "Backpack",
-      projectDesc: "Ecommerce website",
+      image: require("./assets/images/pacman.jpg"),
+      projectName: "Pac-Man",
+      projectDesc: "Pac-Man game",
       footerLink: [
         {
           name: "View Website",
-          url: "https://dev-wuwuwuw.pantheonsite.io/"
+          url: "https://pacman-js-sound.netlify.app/"
         }
       ]
     },
@@ -346,16 +346,16 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/travel.jpg"),
-      projectName: "Travel",
-      projectDesc: "Travel agency",
+      image: require("./assets/images/gallery.jpg"),
+      projectName: "Gallery",
+      projectDesc: "Gallery with the help of pixabay API",
       footerLink: [
         {
           name: "View Website",
-          url: "https://dev-hotelbooksite.pantheonsite.io/"
+          url: "https://react-pixabay-gallery.netlify.app/"
         }
       ]
-    }
+    },
   ],
   display: true 
 };
