@@ -7,7 +7,7 @@ const greeting = {
   username: 'Vilmos Szabo',
   title: 'Hi all, I\'m Vilmos',
   subTitle: emoji(
-    'A passionate Full Stack Web Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs / PHP and some other cool libraries and frameworks.'
+    'A passionate Full Stack Web Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Next.JS / Nodejs / PHP and some other cool libraries and frameworks.'
   ),
   resumeLink:
     'https://drive.google.com/file/d/1vW3mwYJeGeMRoYSNv5XMW4dRykLfWS15/view?usp=sharing',
@@ -246,13 +246,13 @@ const bigProjects = {
   subtitle: "A SELECTION OF MY RANGE OF WORK",
   projects: [
     {
-      image: require("./assets/images/shiroworks1.jpg"),
-      projectName: "ShiroWorks",
-      projectDesc: "Web developer portfolio",
+      image: require("./assets/images/reactLandingPage.gif"),
+      projectName: "Dolla",
+      projectDesc: "React Landing Page with Smooth Scroll",
       footerLink: [
         {
           name: "View Website",
-          url: "https://shiroworks-en.netlify.app/"
+          url: "https://react-landing-page-smooth-scroll.netlify.app/"
         }
         
       ]
@@ -291,13 +291,13 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/12234.jpg"),
-      projectName: "Instagram Clone",
-      projectDesc: "A simple Instagram Clone, with the help of React, Firebase and TailwindCSS",
+      image: require("./assets/images/restaurantLandingPage.png"),
+      projectName: "Restaurant Landing Page",
+      projectDesc: "A simple landing page for a restaurant",
       footerLink: [
         {
           name: "View Website",
-          url: "https://instagram-5d0a9.web.app/login"
+          url: "https://react-restaurant-landing-page.netlify.app/"
         }
       ]
     },
@@ -313,13 +313,13 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/covidtracker.jpg"),
-      projectName: "Covid Tracker",
-      projectDesc: "Coronavirus cases, deaths by country",
+      image: require("./assets/images/reactDashboard.png"),
+      projectName: "Admin Dashboard",
+      projectDesc: "React Admin Dashboard App With Theming, Tables, Charts, Calendar, Kanban and More",
       footerLink: [
         {
           name: "View Website",
-          url: "https://covid-tracker-reactjs.netlify.app/"
+          url: "https://react-admin-dashboard-app.netlify.app/"
         }
       ]
     },
@@ -335,13 +335,13 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/blog.jpg"),
-      projectName: "abc News",
-      projectDesc: "Blog",
+      image: require("./assets/images/fitnessapp.png"),
+      projectName: "Fitness App",
+      projectDesc: "React Fitness Application",
       footerLink: [
         {
           name: "View Website",
-          url: "https://dev-myblogtest.pantheonsite.io/"
+          url: "https://react-mui-fitness-app.netlify.app/"
         }
       ]
     },
